@@ -1,6 +1,12 @@
+body {
+    background-color: black;
+}
+
 .btn {
     width: 96px;
     height: 44px;
+    border: none;
+    border-radius: 4px;
 }
 
 .button {
