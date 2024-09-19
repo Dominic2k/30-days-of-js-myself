@@ -138,7 +138,43 @@ const modifiedArray = arr.map((element,index) => element);
   //Explicit return arrow function
   const countriesToUpperCase = countries.map(country => country.toUpperCase());
   */
+ // const countriesFirstThreeLetters = countries.map((country) =>
+	// 	country.toUpperCase().slice(0, 3)
+ // );
+ 
+ // console.log(countriesFirstThreeLetters);
+ 
+ 
+ //Filter countries containing land
+// const countries = [
+//  	'Albania',
+//  	'Bolivia',
+//  	'Canada',
+//  	'Denmark',
+//  	'Ethiopia',
+//  	'Finland',
+//  	'Germany',
+//  	'Hungary',
+//  	'Ireland',
+//  	'Japan',
+//  	'Kenya',
+// ];
+// const countriesContainingLand = countries.filter((country) =>
+// 	country.includes('land')
+// )
+// console.log(countriesContainingLand);
 
-const countriesFirstThreeLetters = countries.map((country) =>
-	country.toUpperCase().slice(0, 3)
-)
+
+// const numbers = [1, 2, 3, 4, 5];
+// const sum = numbers.reduce((acc, cur) => acc + cur, 0);
+
+// console.log(sum);
+
+const names = ['Asabeneh', 'Mathias', 'Elias', 'Brook'];
+const areAllStr = names.every((name) => typeof name === 'string'); // Are all strings?
+
+console.log(areAllStr);
+
+
+
+
